@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.main_container{
+	background-color: #f5d822;
+	width: 100%;
+	border-radius: 45px;
+}
+.header_section{
+	width: 100%;
+	background-color: #fec300;
+	height: 70px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px; 
+
+}
+img{
+	display: none;
+	
+}
+h1{
+	width: 100%;
+	text-align: center;
+	color: #eb1350;
+	
+	padding-top: 30px;
+	font-size: 2em;
+}
+.screen{
+	width: 98%;
+	margin: 0px auto 0px auto;
+	
+}
+.screen_in{
+	width: 100%;
+	background-color: #fec300; 
+}
+#display{
+	width: 100%;
+	
+	border-radius: 30px;
+	background-color: #4f333f;
+	border: 0;
+	color: white;
+	font-size: 5em;
+	
+	height: 150px;
+}
+.button_part{
+	width: 100%;
+}
+
+.main_table{
+	width: 100%;
+	
+}
+.inner_table{
+	width: 100%;
+    background-color: #dea82e;
+    border-radius: 45px;
+}
+table{
+	border-spacing: 0;
+}
+
+
+.main_table  button{
+	border: 0;
+	background-color: #948e36; 
+	width: 80px;
+	height: 80px;
+	border-radius: 30px;
+    font-size: 2em;
+    color: white;
+
+}
+th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.inner_table button{
+	
+	background-color: #529198; 
+	
+	border-radius: 360px;
+	
+
+}
+#multiply{
+	width: 200px;
+
+}
+#minus{
+	height: 180px;
+}
+#plus{
+	height: 180px;
+}
+#clear{
+	
+	background-color: #f020cb;
+}
+.main_table button:hover, .navbar-brand a:focus {
+	background-color: tomato;
+	
+}
+#copywrite{
+	text-align: center;
+	font-size: 24px;
+	color: #eb1350;
+	padding-bottom: 5px;
+}
+
+
+
+/*------------------------------------------------------*/
+@media (min-width: 425px) {
+	#display{
+	
+	height: 100px;
+	
+}
+img{
+	display: inline;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+h1{
+	position: relative;
+	font-size: 3em;
+
+}
+.header_section{
+	height: 150px;
+}
+.main_table  button{
+	border: 0;
+	background-color: #948e36; 
+	
+	height: 80px;
+	border-radius: 30px;
+    font-size: 3em;
+    color: white;
+}
+.inner_table button{
+	width: 100px; 
+	background-color: #529198; 
+}
+#multiply{
+	width: 100px;
+
+}
+#minus{
+	height: 180px;
+}
+#plus{
+	height: 180px;
+}
+#clear{
+	width: 200px;
+	background-color: #f020cb;
+}
+
+  
+  
+}

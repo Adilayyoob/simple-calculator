@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple_Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main_container">
+		<div class="header_section">
+			<img class="logo" src="logo.png">
+			<h1>SIMPLE CALCULATOR</h1>
+		</div>
+		<div class="screen_in">
+        <div class="screen">
+			<input type="text" id="display">
+		</div>
+	    </div>
+		<div class="button_part">
+			<table class="main_table">
+				<tr>
+					<th><button id="multiply" value="*" onclick="dis('*')">*</button></th>
+					<th><button id="clear" value="c" onclick="clr()">C</button></th>
+					<th><button id="divition" value="/" onclick="dis('/')">/</button></th>
+				</tr>
+				<tr>
+				    <th colspan="2" rowspan="2">
+				    <table class="inner_table">
+				        <tr>
+					        <th><button value="7" onclick="dis('7')">7</button></th>
+					        <th><button value="8" onclick="dis('8')">8</button></th>
+					        <th><button value="9" onclick="dis('9')">9</button></th>
+				        </tr>
+				        <tr>
+					        <th><button value="4" onclick="dis('4')">4</button></th>
+					        <th><button value="5" onclick="dis('5')">5</button></th>
+					        <th><button value="6" onclick="dis('6')">6</button></th>
+				        </tr>
+				        <tr>
+					        <th><button value="1" onclick="dis('1')">1</button></th>
+					        <th><button value="2" onclick="dis('2')">2</button></th>
+					        <th><button value="3" onclick="dis('3')">3</button></th>
+				        </tr>
+				        <tr>
+					        <th><button value="0" onclick="dis('0')">0</button></th>
+					        <th><button value="." onclick="dis('.')">.</button></th>
+					        <th><button value="=" onclick="solve()">=</button></th>
+				        </tr>
+			        </table>
+			        </th>
+		    <th><button id="minus" value="-" onclick="dis('-')">-</button></th>
+		    </tr>
+		    <tr>
+			<th><button id="plus" value="+" onclick="dis('+')">+</button></th>
+		    </tr>
+	    </table>
+        </div>
+		<p id="copywrite">&copyadil_ayyoob</p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
